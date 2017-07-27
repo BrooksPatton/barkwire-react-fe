@@ -22,6 +22,9 @@ class App extends Component {
             </header>
             <Route exact path={"/"} component={DogList} />
             <Route path={"/dogs/:id"} component={OneDog} />
+            <footer>
+              <small>&copy; Barkwire Inc.</small>
+            </footer>
           </div>
         </Router>
       </Provider>

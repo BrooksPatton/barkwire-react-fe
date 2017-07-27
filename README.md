@@ -60,3 +60,7 @@ Now its time to create the Dog component, and use it to display all of the dogs 
 ## Step eight, show one dog on the one dog page
 
 Now is the time to show just one dog on the specific one dog page
+
+## Step nine, Finally, we just need to add the footer
+
+All that is left is to add in the footer tags to complete the project
