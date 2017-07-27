@@ -27,9 +27,9 @@ Then its time to set up the barebones react app with the command `create-react-a
 
 ## Step two, setting up the css files
 
-First things first, we aren't going to be using the provided css files but rather ones that have been built by Kyle Koberly. One nice thing about the create-react-app cli is that it sets up scss automatically so we can just drop it in.
+First things first, we aren't going to be using the provided css files but rather ones that have been built by Kyle Koberly.
 
-As such I removed the existing css files and replaced them with a scss file and a reset.css file. Then I modified the App.js and Index.js files to reference the appropriate files.
+As such I removed the existing css files and replaced them with a css file provided to all of us.
 
 ## Step three, Setting up the Router and navigation
 
