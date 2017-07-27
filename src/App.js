@@ -7,6 +7,7 @@ import {
 import DogList from './DogList';
 import {Provider} from 'react-redux';
 import {store} from './redux/dogStore';
+import OneDog from './OneDog';
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
                 <h1>BarkWire</h1>
               </Link>
             </header>
-            <Route exact path="/" component={DogList} />
+            <Route exact path={"/"} component={DogList} />
+            <Route path={"/dogs/:id"} component={OneDog} />
           </div>
         </Router>
       </Provider>

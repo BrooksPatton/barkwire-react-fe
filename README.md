@@ -56,3 +56,7 @@ Now we can turn back to the DogList component, when it is about to mount we can 
 ## Step seven, showing all of the dogs on the landing page
 
 Now its time to create the Dog component, and use it to display all of the dogs on the landing page
+
+## Step eight, show one dog on the one dog page
+
+Now is the time to show just one dog on the specific one dog page
