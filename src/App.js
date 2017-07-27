@@ -4,6 +4,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import DogList from './DogList';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
               <h1>BarkWire</h1>
             </Link>
           </header>
+          <Route exact path="/" component={DogList} />
         </div>
       </Router>
     );

@@ -36,3 +36,7 @@ As such I removed the existing css files and replaced them with a scss file and 
 We will be paying more attention to the App.js file as we create a basic router, and add in a nav link.
 
 This also means that we have to install the react-router-dom npm module.
+
+## Step four, A component and the route for it
+
+Time to create a DogList component and setting up the route to display it.
