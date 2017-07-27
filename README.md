@@ -24,3 +24,9 @@ First of all, I am running Node.js version `v8.2.1` with npm version `5.3.0`.
 I'll install the `create-react-app` command line tool with the command `npm i -g create-react-app`
 
 Then its time to set up the barebones react app with the command `create-react-app .` This will give us a fully working React application to play with. We can start it up with the command npm start and see the basic react app created for us.
+
+## Step two, setting up the css files
+
+First things first, we aren't going to be using the provided css files but rather ones that have been built by Kyle Koberly. One nice thing about the create-react-app cli is that it sets up scss automatically so we can just drop it in.
+
+As such I removed the existing css files and replaced them with a scss file and a reset.css file. Then I modified the App.js and Index.js files to reference the appropriate files.
