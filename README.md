@@ -48,3 +48,7 @@ I'm using redux here even though the app is really small as many people are usin
 In this case I will be setting up a couple of methods for modifying the redux store, resetting all of the dogs, and adding a single dog.
 
 This does mean that we need to install a couple more npm modules though `redux` and `react-redux`.
+
+## Step six, fetching all the dogs and adding them to the store
+
+Now we can turn back to the DogList component, when it is about to mount we can use ajax to fetch the full list of dogs and reset the full list of dogs in the redux store.
