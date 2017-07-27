@@ -40,3 +40,11 @@ This also means that we have to install the react-router-dom npm module.
 ## Step four, A component and the route for it
 
 Time to create a DogList component and setting up the route to display it.
+
+## Step five, setting up a redux store
+
+I'm using redux here even though the app is really small as many people are using redux and I wanted to show how simple it can be to set up redux. This pattern of redux has been taken from Brian Holt at Netflix.
+
+In this case I will be setting up a couple of methods for modifying the redux store, resetting all of the dogs, and adding a single dog.
+
+This does mean that we need to install a couple more npm modules though `redux` and `react-redux`.
