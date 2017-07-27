@@ -52,3 +52,7 @@ This does mean that we need to install a couple more npm modules though `redux` 
 ## Step six, fetching all the dogs and adding them to the store
 
 Now we can turn back to the DogList component, when it is about to mount we can use ajax to fetch the full list of dogs and reset the full list of dogs in the redux store.
+
+## Step seven, showing all of the dogs on the landing page
+
+Now its time to create the Dog component, and use it to display all of the dogs on the landing page

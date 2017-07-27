@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {connector} from './redux/dogStore';
+import Dog from './Dog';
 
 class DogList extends Component {
 	componentWillMount() {
@@ -9,9 +10,15 @@ class DogList extends Component {
 		.catch(err => console.error(err));
 	}
 
+	generateDogs() {
+		return this.props.dogs.map(dog => (<Dog key={dog.id} dog={dog} />));
+	}
+
 	render() {
 		return (
-			<h1>Hello world</h1>
+			<ul className={"dogs"}>
+				{this.generateDogs()}
+			</ul>
 		);
 	}
 }
