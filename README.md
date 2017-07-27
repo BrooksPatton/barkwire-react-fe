@@ -30,3 +30,9 @@ Then its time to set up the barebones react app with the command `create-react-a
 First things first, we aren't going to be using the provided css files but rather ones that have been built by Kyle Koberly. One nice thing about the create-react-app cli is that it sets up scss automatically so we can just drop it in.
 
 As such I removed the existing css files and replaced them with a scss file and a reset.css file. Then I modified the App.js and Index.js files to reference the appropriate files.
+
+## Step three, Setting up the Router and navigation
+
+We will be paying more attention to the App.js file as we create a basic router, and add in a nav link.
+
+This also means that we have to install the react-router-dom npm module.
