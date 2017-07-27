@@ -11,7 +11,7 @@ Welcome to the React part of the showdown. Here we are going to create a very ba
 
 ## How to follow along with this tutorial
 
-I will be writing this code in branches, you can begin with the `start` branch. With each new branch a description of what code was added, and why will be added to this README, with the master branch being empty (it is for the night of the meetup).
+I will be writing this code in branches, you can begin with the `start` branch. With each new branch a description of what code was added, and why will be added to this README, with the master branch being the final version.
 
 # The tutorial
 
